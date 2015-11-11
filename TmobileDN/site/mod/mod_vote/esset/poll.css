@@ -1,0 +1,10 @@
+.poll-question{
+    font-weight: bold;
+}
+.vote {
+    background: none repeat scroll 0 0 #FDF1A8;
+    border-bottom: 1px solid #DD700A;
+    border-left: 1px solid #DD700A;
+    border-right: 1px solid #DD700A;
+    padding: 5px;
+}

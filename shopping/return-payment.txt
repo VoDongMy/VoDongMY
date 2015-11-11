@@ -1,0 +1,158 @@
+stdClass Object
+(
+    [id] => PAY-0G858281F1867332DKS46CFI
+    [create_time] => 2015-01-17T04:12:05Z
+    [update_time] => 2015-01-17T04:15:22Z
+    [state] => approved
+    [intent] => sale
+    [payer] => stdClass Object
+        (
+            [payment_method] => paypal
+            [payer_info] => stdClass Object
+                (
+                    [email] => dangchison@gmail.com
+                    [first_name] => SandboxTest
+                    [last_name] => Account
+                    [payer_id] => 93PLPKDWF8PS4
+                    [shipping_address] => stdClass Object
+                        (
+                            [line1] => 1 Main St
+                            [city] => San Jose
+                            [state] => CA
+                            [postal_code] => 95131
+                            [country_code] => US
+                            [recipient_name] => SandboxTest Account
+                        )
+
+                )
+
+        )
+
+    [transactions] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [amount] => stdClass Object
+                        (
+                            [total] => 1534.00
+                            [currency] => USD
+                            [details] => stdClass Object
+                                (
+                                    [subtotal] => 1534.00
+                                    [fee] => 44.79
+                                )
+
+                        )
+
+                    [item_list] => stdClass Object
+                        (
+                            [items] => Array
+                                (
+                                    [0] => stdClass Object
+                                        (
+                                            [name] => product_17
+                                            [sku] => 17
+                                            [price] => 626.00
+                                            [currency] => USD
+                                            [quantity] => 1
+                                        )
+
+                                    [1] => stdClass Object
+                                        (
+                                            [name] => product_13
+                                            [sku] => 13
+                                            [price] => 447.00
+                                            [currency] => USD
+                                            [quantity] => 1
+                                        )
+
+                                    [2] => stdClass Object
+                                        (
+                                            [name] => product_25
+                                            [sku] => 25
+                                            [price] => 461.00
+                                            [currency] => USD
+                                            [quantity] => 1
+                                        )
+
+                                )
+
+                            [shipping_address] => stdClass Object
+                                (
+                                    [recipient_name] => SandboxTest Account
+                                    [line1] => 1 Main St
+                                    [city] => San Jose
+                                    [state] => CA
+                                    [postal_code] => 95131
+                                    [country_code] => US
+                                )
+
+                        )
+
+                    [related_resources] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [sale] => stdClass Object
+                                        (
+                                            [id] => 7L149377GH7378603
+                                            [create_time] => 2015-01-17T04:12:05Z
+                                            [update_time] => 2015-01-17T04:15:22Z
+                                            [amount] => stdClass Object
+                                                (
+                                                    [total] => 1534.00
+                                                    [currency] => USD
+                                                )
+
+                                            [payment_mode] => INSTANT_TRANSFER
+                                            [state] => pending
+                                            [reason_code] => PAYMENT_REVIEW
+                                            [protection_eligibility] => INELIGIBLE
+                                            [parent_payment] => PAY-0G858281F1867332DKS46CFI
+                                            [links] => Array
+                                                (
+                                                    [0] => stdClass Object
+                                                        (
+                                                            [href] => https://api.sandbox.paypal.com/v1/payments/sale/7L149377GH7378603
+                                                            [rel] => self
+                                                            [method] => GET
+                                                        )
+
+                                                    [1] => stdClass Object
+                                                        (
+                                                            [href] => https://api.sandbox.paypal.com/v1/payments/sale/7L149377GH7378603/refund
+                                                            [rel] => refund
+                                                            [method] => POST
+                                                        )
+
+                                                    [2] => stdClass Object
+                                                        (
+                                                            [href] => https://api.sandbox.paypal.com/v1/payments/payment/PAY-0G858281F1867332DKS46CFI
+                                                            [rel] => parent_payment
+                                                            [method] => GET
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [links] => Array
+        (
+            [0] => stdClass Object
+                (
+                    [href] => https://api.sandbox.paypal.com/v1/payments/payment/PAY-0G858281F1867332DKS46CFI
+                    [rel] => self
+                    [method] => GET
+                )
+
+        )
+
+)

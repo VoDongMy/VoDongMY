@@ -1,0 +1,24 @@
+<?php
+$lang['congdung'] = "Công dụng";
+$lang['thanhphan'] = "Thành phần chính";
+$lang['sudung'] = "Cách sử dụng";
+$lang['uudai'] = "Ưu đãi";
+$lang['tintuc'] = "Tin tức";
+$lang['taisaochonjada'] = "Tại sao chọn Jada?";
+$lang['timhieuvedacuatoi'] = "Tìm hiểu da của tôi";
+$lang['timquytrinh'] = "Tìm quy trình dưỡng da phù hợp với bạn";
+$lang['note1'] = "Tại Jada chúng tôi tin rằng làn da tươi trẻ và rạng rỡ có thể được tạo ra";
+$lang['note2'] = "Chỉ cần bước tìm hiểu về da nhanh của chúng tôi";
+$lang['note3'] = "bạn có thể tìm được quy trình dưỡng da phù hợp với mình.";
+$lang['batdaungay'] = "Bắt đầu ngay";
+$lang['traloi'] = "Trả lời vài câu hỏi nhanh để tìm được quy trình phù hợp";
+$lang['trangtruoc'] = "Trang trước";
+$lang['tieptheo'] = "Tiếp theo";
+$lang['ketqua'] = "Kết quả";
+$lang['moiquantam'] = "Mối quan tâm chính về da của tôi";
+$lang['xemketqua'] = "Xem kết quả";
+$lang['daso'] = 'Da của bạn là da số ';
+$lang['lamlai'] = "Làm lại tìm hiểu da";
+$lang['moiquantamchinh'] = "Mỗi quan tâm của bạn và các sản phẩm phù hợp";
+$lang['dckhuyendung'] = "Được khuyên dùng cho";
+$lang['boduongdaphuhop'] = "Bộ Dưỡng da phù hợp với bạn";

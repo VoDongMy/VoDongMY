@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5">
+    <name>Module Liên kết website</name>
+    <author>Tran Ngoc Duoc</author>
+    <creationDate>01/06/2011</creationDate>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <authorEmail>tranngocduoc@gmail.com</authorEmail>
+    <version>1.0</version>
+
+    <params>
+        <param name="shows" type="list" default="0" label="Hiển thị" description="Tùy chọn hiển thị theo SelectBox hoặc Danh sách">
+            <option value="1">SelectBox</option>
+            <option value="0">List</option>        
+        </param>  
+    </params>
+</install>

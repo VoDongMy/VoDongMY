@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5">
+    <name>Slide hình ảnh</name>
+    <author>Tran Ngoc Duoc</author>
+    <creationDate>01/06/2011</creationDate>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <authorEmail>tranngocduoc@gmail.com</authorEmail>
+    <version>1.0</version>
+
+    <params>
+        <param name="otp" type="list" default="default" label="Tùy chọn hiển thị" description="" >
+            <option value="0">Trang chủ</option>
+            <option value="1">Tất cả</option>
+        </param> 
+        <param name="img_h" type="text" default="400" label="Chiều cao ảnh" description="" />   
+    </params>
+</install>

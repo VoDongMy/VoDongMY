@@ -1,0 +1,94 @@
+.contact-block{
+    margin-bottom: 20px;
+}
+.contact-name{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #F8A238;
+}
+.contact-name1{
+    font-size: 14px;
+    margin-bottom: 0px;
+    color: #018045;
+    margin-top: 10px;
+}
+.contact-name1 a,
+.contact-name a{
+    font-size: 12px;
+    font-weight: 100;
+    color: #FF0000;
+}
+.contact-address{
+    line-height: 18px;
+    font-size: 12px;
+    margin: 2px 0px;
+    color: #999;
+}
+.contact-address b{
+
+}
+.contact-text{
+    border-bottom: 1px solid #CCC;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px 0px;
+    position: relative;
+}
+.contact-text .mapview{
+    position: absolute;
+    top: 6px;
+    right: 0px;
+}
+.contact-text .mapview a{
+    color: #FF6600;
+}
+.map-view{
+    border: 1px solid #CCC;
+    padding: 5px;
+}
+div.error{
+    font-size: 11px;
+    color: #FF0000;
+}
+.FormSend{
+    float: left;
+    width: 450px;
+    border-right: 1px dashed #CCC;
+}
+.FormInfo{
+    float: right;
+    width: 500px;
+}
+.table_contact td{
+    vertical-align: top;
+    padding: 5px;
+}
+.table_contact td.label{
+    text-align: right;
+    width: 120px;
+}
+.table_contact span{
+    color: #FF0000;
+}
+.contactleft{
+    float: left;
+    width: 540px;
+}
+.contactright{
+    float: right;
+    width: 400px;
+    border: 1px solid #d1d1d1;
+}
+#map_canvas_detail{
+    border: 1px solid #FFF;   
+}
+.bnt{
+    background: #111;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    cursor: pointer;
+    border: 0px;
+    color: #f2f2f2;
+    font-family: "utm_swiss";
+    text-transform: uppercase;
+}

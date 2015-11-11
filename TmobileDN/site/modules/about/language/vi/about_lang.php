@@ -1,0 +1,25 @@
+<?php
+$lang['dangkyemail'] = "Đăng ký Email";
+$lang['dangky_ghichu'] = "Là thành viên JADA Trực Tuyến, bạn sẽ là 1 trong những người đầu tiên biết về sản phẩm mới của chúng tôi và các sự kiện tại nơi bạn ở.";
+$lang['ho'] = "Họ";
+$lang['ten'] = "Tên";
+$lang['diachiemail'] = "Địa chỉ Email";
+$lang['nhap_diachiemail'] = "Nhập lại địa chỉ Email";
+$lang['diachi1'] = "Địa chỉ 1";
+$lang['diachi2'] = "Địa chỉ 2";
+$lang['thanhpho'] = "Thành phố";
+$lang['quocgia'] = "Quốc gia";
+$lang['dienthoaididong'] = "Điện thoại di động";
+$lang['label_dongy'] = "Khi cung cấp thông tin của bạn, bạn đã chấp nhận là đã đọc, hiểu và đồng ý các Điều khoản & Điều Kiện và Chính Sách Bảo Mật của chúng tôi.";
+$lang['label_nhanmail'] = "Vâng, tôi muốn nhận được email từ JADA về sản phẩm mới và các sự kiện gần nhất.";
+$lang['guidangky'] = 'Gửi đăng ký';
+$lang['v_ho'] = "Vui lòng nhập Họ";
+$lang['v_ten'] = "Vui lòng nhập Tên";
+$lang['v_email'] = "Vui lòng nhập Địa chỉ Email";
+$lang['v_re_email'] = "Vui lòng nhập lại địa chỉ Email";
+$lang['v_invail_email'] = "Email nhập không đúng định dạng";
+$lang['v_form_email_to'] = "Email nhập lại không giống Email";
+$lang['v_choice'] = "Vui lòng check chọn";
+$lang['dangky_thanhcong'] = 'Quá trình đăng ký Email thành công';
+$lang['dangky_khong_thanhcong'] = 'Quá trình đăng ký Email không thành công. Vui lòng kiểm tra lại thông tin';
+$lang['email_dadangky'] = "Email này đã được đăng ký. Vui lòng chọn Email khác";

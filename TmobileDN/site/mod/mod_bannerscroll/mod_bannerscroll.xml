@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5">
+    <name>Modules Banner Scroll</name>
+    <author>Tran Ngoc Duoc</author>
+    <creationDate>01/06/2011</creationDate>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <authorEmail>tranngocduoc@gmail.com</authorEmail>
+    <version>1.0</version>
+
+    <params>
+        <param name="file_img_l" type="text" default="" label="Ảnh trái" description="" /> 
+        <param name="link_img_l" type="text" default="" label="Url" description="Đường dẫn" />
+        <param name="target_ads_l" type="list" default="page_owner" label="Kiểu liên kết" description="" >
+            <option value="page_owner">Trong Trang</option>
+            <option value="page_new">Mở tabs mới</option>
+        </param>
+        <param name="file_img_r" type="text" default="" label="Ảnh Phải" description="" /> 
+        <param name="link_img_r" type="text" default="" label="Url" description="Đường dẫn" />
+        <param name="target_ads_r" type="list" default="page_owner" label="Kiểu liên kết" description="" >
+            <option value="page_owner">Trong Trang</option>
+            <option value="page_new">Mở tabs mới</option>
+        </param> 
+    </params>
+</install>

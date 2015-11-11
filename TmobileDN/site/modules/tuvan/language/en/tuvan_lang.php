@@ -1,0 +1,24 @@
+<?php
+$lang['congdung'] = "Uses";
+$lang['thanhphan'] = "Proper Element";
+$lang['sudung'] = "How to use";
+$lang['uudai'] = "NEW OFFERS";
+$lang['tintuc'] = "News";
+$lang['taisaochonjada'] = "WHY JADA?";
+$lang['timhieuvedacuatoi'] = "Read my skin";
+$lang['timquytrinh'] = "Find skin care procedure is right for you";
+$lang['note1'] = "Why we believe Jada skin youthful and radiant can be created";
+$lang['note2'] = "Just steps to learn about our quick skin";
+$lang['note3'] = "You can find the process in accordance with their skin.";
+$lang['batdaungay'] = "Started Now";
+$lang['traloi'] = "Answer a few quick questions to find a suitable process";
+$lang['trangtruoc'] = "Previous";
+$lang['tieptheo'] = "Next";
+$lang['ketqua'] = "Results";
+$lang['moiquantam'] = "The main concern about my skin";
+$lang['xemketqua'] = "View Results";
+$lang['daso'] = 'Your skin is the skin of ';
+$lang['lamlai'] = "How to find out";
+$lang['moiquantamchinh'] = "Each of you are interested and suitable products";
+$lang['dckhuyendung'] = "Recommended for";
+$lang['boduongdaphuhop'] = "The Skin suit you";

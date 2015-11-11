@@ -1,0 +1,22 @@
+<?php
+$lang['lienhe'] = "Liên hệ";
+$lang['contact.diachi'] = "Địa chỉ";
+$lang['contact.dienthoai'] = "Điện thoại";
+$lang['contact.lienhenhanh'] = "Liên hệ nhanh";
+$lang['contact.hoten'] = "Họ và tên";
+$lang['contact.tieude'] = "Tiêu đề";
+$lang['contact.noidung'] = "Nội dung";
+$lang['contact.guilienhe'] = "Gửi liên hệ";
+$lang['contact.map'] = "Bản đồ";
+$lang['chinhanh_hanoi'] = "Chi nhánh Hà Nội";
+$lang['hn_add'] = "86 Nguyễn Chí Thanh, Quận Đống Đa, Hà Nội";
+$lang['dn_add'] = "Tầng 4 - Tòa nhà Xuyên Á, 169-171 Trần Phú, Quận Hải Châu, Đà Nẵng";
+$lang['chinhanh_danang'] = "Chi nhánh Đà Nẵng";
+$lang['v_fullname'] = "Vui lòng nhập Họ và tên";
+$lang['v_email'] = "Vui lòng nhập Email";
+$lang['v_valid_email'] = "Email nhập không đúng định dạng";
+$lang['v_phone'] = "Vui lòng nhập Điện thoại";
+$lang['v_title'] = "Vui lòng nhập Tiêu đề";
+$lang['v_content'] = "Vui lòng nhập Nội dung";
+$lang['guithanhcong'] = "Gửi liên hệ thành công";
+$lang['guikhongthanhcong'] = "Liên hệ chưa được gửi. Vui lòng kiểm tra lại thông tin";

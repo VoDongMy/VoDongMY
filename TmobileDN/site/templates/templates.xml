@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="templates" version="1.5">
+    <name>Position Templates</name>
+    <author>Trần Ngọc Được</author>
+    <creationDate>01/06/2011</creationDate>
+    <copyright>www.360vnit.com</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <authorEmail>tranngocduoc#gmail.com</authorEmail>
+    <authorUrl>http://www.360vnit.com</authorUrl>
+    <version>1.0</version>
+
+    <position>
+        <position name="slideshow" label="Slideshow" />
+        <position name="banner" label="banner" />
+        <position name="left" label="Left" />
+        <position name="sodo" label="Sơ đồ đường đi" />
+        <position name="support" label="Hỗ trợ trực tuyến" />
+        <position name="online" label="Thống kê truy cập" />
+        <position name="footer" label="Footer" />
+    </position>
+    
+     <css>
+        <css name="" label="Mặc định" />
+        <css name="_blank" label="Không chọn" />
+    </css>
+
+</install>

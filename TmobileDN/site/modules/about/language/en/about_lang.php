@@ -1,0 +1,23 @@
+<?php
+$lang['dangkyemail'] = "Email registration";
+$lang['dangky_ghichu'] = "As a member JADA Truc Route, you will is 1 in those first person know about new products our and the events at where you in.";
+$lang['ho'] = "First Name";
+$lang['ten'] = "Last Name";
+$lang['diachiemail'] = "Email address";
+$lang['nhap_diachiemail'] = "Enter the Email address";
+$lang['diachi1'] = "Address 1";
+$lang['diachi2'] = "Address 2";
+$lang['thanhpho'] = "City";
+$lang['quocgia'] = "Country";
+$lang['dienthoaididong'] = "Mobile";
+$lang['label_dongy'] = "When you provide personal information, you agree to have read, understood and agree to the Terms & Conditions and Privacy Policy of our.";
+$lang['label_nhanmail'] = "Yes, I want to receive emails from Jada about new products and the latest events.";
+$lang['guidangky'] = 'Send registration';
+$lang['v_ho'] = "Please enter First Name";
+$lang['v_ten'] = "Please enter Last Name";
+$lang['v_email'] = "Please enter Email address";
+$lang['v_re_email'] = "Please enter the Email address";
+$lang['v_invail_email'] = "Email entered is incorrect format";
+$lang['v_form_email_to'] = "Email not re-enter the same";
+$lang['v_choice'] = "Please check selected";
+$lang['email_dadangky'] = "This email is already registered. Please select another Email";
