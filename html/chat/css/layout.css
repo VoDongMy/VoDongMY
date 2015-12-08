@@ -1,6 +1,3 @@
-/* minxin */
-/* header */
-/* line 31, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 @font-face {
   font-family: "FontAwesome";
     src: url('../fonts/fontawesome-webfont.eot'); /* IE9 Compat Modes */
@@ -16,35 +13,31 @@ footer {
   padding-left: 240px;
 }
 
-/* line 37, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 #wrapper {
   position: relative;
   height: 100%;
 }
-/* line 4, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 #wrapper:before, #wrapper:after {
   content: " ";
   display: table;
 }
-/* line 9, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 #wrapper:after {
   clear: both;
 }
 
-/* line 43, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .main-content {
   padding: 0 30px;
 }
 
 /* navigation */
-/* line 49, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .navigation {
   padding: 0 15px;
   height: 50px;
   line-height: 50px;
-  background-color: #0087C3;
+  color: #0087C3;
+  background-color: #fff;
+  border-bottom: solid 1px #0087C3;
 }
-/* line 54, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .navigation h1 {
   margin: 0;
   font-size: 20px;
@@ -53,35 +46,37 @@ footer {
   float: left;
   padding: 15px 0;
 }
-/* line 62, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .navigation .top-action {
   position: relative;
   z-index: 2;
   float: right;
 }
-/* line 66, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .navigation .top-action .item-action {
   float: left;
 }
-/* line 68, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
+
 .navigation .top-action .item-action a {
   padding: 10px 15px 9px;
 }
-/* line 73, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .navigation .nav-wrapper i {
   height: auto;
   line-height: normal;
 }
+.navigation a{
+  color: #0087C3;
+  height: 50px;
+}
 
 /* slidebar */
-/* line 85, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
+.slidebar ul.side-nav{
+
+}
 .slidebar ul.side-nav.full li,
 .slidebar ul.side-nav.fixed li {
   line-height: normal;
   padding: 0;
   border-bottom: 1px solid #ccc;
 }
-/* line 89, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .slidebar ul.side-nav.full li a,
 .slidebar ul.side-nav.fixed li a {
   padding: 15px 15px 16px;
@@ -92,81 +87,67 @@ footer {
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 95, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .slidebar ul.side-nav.full li a .fa,
 .slidebar ul.side-nav.fixed li a .fa {
   color: #9e9e9e;
   margin-right: 7px;
   font-size: 17px;
 }
-/* line 102, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .slidebar ul.side-nav.full li:hover a, .slidebar ul.side-nav.full li:hover .fa, .slidebar ul.side-nav.full li.active a, .slidebar ul.side-nav.full li.active .fa,
 .slidebar ul.side-nav.fixed li:hover a,
 .slidebar ul.side-nav.fixed li:hover .fa,
 .slidebar ul.side-nav.fixed li.active a,
 .slidebar ul.side-nav.fixed li.active .fa {
-  color: #fff;
+  color: #0087C3;
 }
-/* line 103, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .slidebar ul.side-nav.full li:hover a, .slidebar ul.side-nav.full li.active a,
 .slidebar ul.side-nav.fixed li:hover a,
 .slidebar ul.side-nav.fixed li.active a {
-  background-color: #0087C3;
+  background-color: #fff;
+  /*border-bottom: 1px solid #0087C3;*/
 }
 
-/* line 111, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .pull-left {
   float: left;
 }
 
-/* line 114, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .pull-right {
   float: right;
 }
-/* line 116, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .pull-right .box-comment {
   text-align: right;
 }
 
-/* line 120, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .page-chat {
   padding-bottom: 58px;
 }
 
 /* group-chat */
-/* line 4, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .group-chat:before, .group-chat:after {
   content: " ";
   display: table;
 }
-/* line 9, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .group-chat:after {
   clear: both;
 }
-/* line 126, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .group-chat .item-chat {
   clear: both;
 }
-/* line 4, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .group-chat .item-chat:before, .group-chat .item-chat:after {
   content: " ";
   display: table;
 }
-/* line 9, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .group-chat .item-chat:after {
   clear: both;
 }
 
-/* line 131, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .item-panel {
   margin-top: 10px;
   display: table;
 }
-/* line 134, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .item-panel .author, .item-panel .write-inbox, .item-panel .box-body {
   display: table-cell;
 }
-/* line 137, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .item-panel .author {
   width: 65px;
   position: relative;
@@ -174,7 +155,6 @@ footer {
   text-align: center;
   vertical-align: bottom;
 }
-/* line 143, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .item-panel .author .is-on {
   width: 8px;
   height: 8px;
@@ -187,12 +167,10 @@ footer {
   top: -7px;
   background-color: #64dd17;
 }
-/* line 152, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .item-panel .author .avatar {
   display: block;
   position: relative;
 }
-/* line 155, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .item-panel .author .avatar .image-avatar {
   width: 30px;
   height: 30px;
@@ -201,39 +179,36 @@ footer {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 161, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .item-panel .author .name-member {
   color: #ec407a;
 }
-/* line 165, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .item-panel .write-inbox {
   width: 50px;
   padding-left: 10px;
+  padding-right: 10px;
   vertical-align: top;
 }
-/* line 169, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .item-panel .write-inbox .symboy-inbox {
-  color: #fff;
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
+  color: #0087C3;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
   font-size: 22px;
   text-align: center;
-  background-color: #0087C3;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  border-radius: 6px;
+  background-color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  border: solid 1px #0087c3;
 }
-/* line 178, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .item-panel .write-inbox .symboy-inbox a {
   color: #fff;
 }
-/* line 184, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .item-panel .box-body .box-comment {
   max-width: 327px;
+  padding-top: 4px;
 }
-/* line 186, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .item-panel .box-body .box-comment .box-inner {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
@@ -244,17 +219,14 @@ footer {
   background-color: #e0e0e0;
   color: #424242;
 }
-/* line 192, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .item-panel .box-body .box-comment .box-inner p {
   margin: 0;
 }
-/* line 195, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .item-panel .box-body .box-comment .box-inner.again-reply {
   margin-top: 10px;
 }
 
 /* post-commnent */
-/* line 203, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .post-commnent {
   background-color: #f8f8f8;
   border-top: 1px solid #c1c1c1;
@@ -265,95 +237,84 @@ footer {
   right: 0;
   z-index: 1;
 }
-/* line 212, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .post-commnent .action-commnent {
   float: left;
   width: 30px;
   margin: 0 10px 0 20px;
 }
-/* line 216, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .post-commnent .action-commnent .fa {
   font-size: 24px;
-  color: #9e9e9e;
+  color: #0087C3;
 }
-/* line 223, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .post-commnent .action-commnent a.active .fa:before {
   content: "\f056";
 }
-/* line 230, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .post-commnent .form-group {
   overflow: hidden;
   position: relative;
 }
-/* line 233, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .post-commnent .form-group .form-group-inner {
   margin-right: 140px;
 }
-/* line 235, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .post-commnent .form-group .form-group-inner .form-control {
   margin-bottom: 8px;
   height: 2rem;
 }
-/* line 238, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .post-commnent .form-group .form-group-inner .form-control:focus {
   border-bottom: 1px solid #0087C3;
   -webkit-box-shadow: 0 1px 0 0 #0087C3;
   -moz-box-shadow: 0 1px 0 0 #0087C3;
   box-shadow: 0 1px 0 0 #0087C3;
 }
-/* line 244, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .post-commnent .form-group .form-group-inner-bottom {
   display: none;
   padding: 6px 0 9px 0;
   margin-right: 140px;
   text-align: center;
 }
-/* line 249, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .post-commnent .form-group .form-group-inner-bottom .btn {
   margin: 0 10px;
-  background: #0087C3;
+  background: #fff;
+  color: #0087C3;
+  border: 1px solid #0087C3;
   height: 38px;
 }
-/* line 253, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .post-commnent .form-group .form-group-inner-bottom .btn i {
   margin-right: 6px;
   position: relative;
   top: 1px;
 }
-/* line 260, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .post-commnent .form-group .btn-post {
   position: absolute;
   right: 15px;
   top: 0;
-  background-color: #0087C3;
+  background-color: #fff;
+  color: #0087C3;
+  border: solid 1px #0087C3;
 }
 
 /* search */
-/* line 269, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .form-search {
   position: relative;
 }
-/* line 271, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .form-search .input-field {
   margin: 0 22px 0 0;
 }
-/* line 273, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .form-search .input-field input {
   margin-bottom: 0;
 }
-/* line 275, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .form-search .input-field input:focus:not([readonly]) {
   border-bottom: 1px solid #0087C3;
   -webkit-box-shadow: 0 1px 0 0 #0087C3;
   -moz-box-shadow: 0 1px 0 0 #0087C3;
   box-shadow: 0 1px 0 0 #0087C3;
 }
-/* line 281, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .form-search .btn-close {
   position: absolute;
   right: 0;
   top: 13px;
-  color: #000;
+  color: #0087C3;
+  font-size: 2.3rem;
   padding: 0 !important;
   height: auto !important;
   line-height: normal !important;
@@ -362,7 +323,6 @@ footer {
   -moz-box-shadow: 0 0 0 0 #fff;
   box-shadow: 0 0 0 0 #fff;
 }
-/* line 291, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 .form-search .btn-close:hover, .form-search .btn-close:focus {
   -webkit-box-shadow: 0 0 0 0 #fff;
   -moz-box-shadow: 0 0 0 0 #fff;
@@ -370,58 +330,48 @@ footer {
 }
 
 /* popup clean and sign out */
-/* line 298, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 #clean, #sign-out {
   background-color: #fff;
   max-width: 500px;
   width: 94%;
 }
-/* line 302, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 #clean .btn, #sign-out .btn {
   margin: 0 10px;
   background-color: #0087C3;
   float: none;
 }
-/* line 307, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 #clean h5, #sign-out h5 {
   margin-bottom: 30px;
 }
-/* line 310, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 #clean .modal-footer, #sign-out .modal-footer {
   background-color: #fff;
 }
-/* line 313, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
 #clean .modal-content, #sign-out .modal-content {
   padding: 0;
 }
 
 /* media query */
 @media only screen and (min-width: 993px) {
-  /* line 321, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
   ul.side-nav.fixed {
     left: 0 !important;
   }
 }
 @media only screen and (max-width: 992px) {
-  /* line 328, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
   header,
   main,
   footer, .post-commnent {
     padding-left: 0;
   }
 
-  /* line 333, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
   .navigation {
     height: 48px;
   }
-  /* line 335, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
   .navigation h1 {
     position: absolute;
     left: 0;
     right: 0;
     text-align: center;
   }
-  /* line 342, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
   .navigation a.button-collapse {
     height: auto;
     padding-top: 6px;
@@ -429,60 +379,47 @@ footer {
     padding-bottom: 6px;
   }
 
-  /* line 353, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
   .post-commnent .form-group .form-group-inner-bottom .btn {
     padding: 0 18px;
   }
 }
 @media only screen and (max-width: 600px) {
-  /* line 362, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
   .navigation .top-action {
     display: none;
   }
 
-  /* line 366, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
   .post-commnent {
     padding: 9px 0 8px 0;
   }
-  /* line 369, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
   .post-commnent .form-group .btn-post {
     padding: 0 13px;
     right: 10px;
   }
-  /* line 373, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
   .post-commnent .form-group .form-group-inner {
     margin-right: 84px;
   }
-  /* line 376, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
   .post-commnent .form-group .form-group-inner-bottom {
     margin-right: 84px;
   }
-  /* line 378, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
   .post-commnent .form-group .form-group-inner-bottom .btn {
     padding: 0 10px;
     text-align: center;
     min-width: 49px;
     margin: 0 6px;
   }
-  /* line 383, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
   .post-commnent .form-group .form-group-inner-bottom .btn span {
     display: none;
   }
-  /* line 386, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
   .post-commnent .form-group .form-group-inner-bottom .btn i {
     margin-right: 0;
   }
-  /* line 392, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
   .post-commnent .action-commnent {
     margin: 0 5px 0 14px;
   }
 
-  /* line 396, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
   .main-content {
     padding: 0 18px;
   }
-
-  /* line 400, /home/donghv/projects/liquid-app-ekupo-chat/app/assets/stylesheets/layout.scss */
   .item-panel .write-inbox {
     width: 46px;
   }
