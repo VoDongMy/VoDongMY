@@ -14,19 +14,40 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$(document).ready(function() {
+    // Menu Mobile
+    $(".button-collapse").sideNav({
+        'edge': 'left'
+    });
+    // Popup Clean and Sign out
+    $('.modal-trigger').leanModal();
+    // More button about comment
+    $(".action-commnent a.plus").click(function(event) {
+        $(".post-commnent .form-group .form-group-inner-bottom").slideToggle(300);
+        $(this).toggleClass("active");
+        event.preventdefault();
+    });
 
-$(document).ready(function(){
-	// Menu Mobile
-	$(".button-collapse").sideNav({'edge': 'left'});
-
-	// Popup Clean and Sign out
-	$('.modal-trigger').leanModal();
-
-	// More button about comment
-	$(".action-commnent a").click(function(event){ 
-		$(".post-commnent .form-group .form-group-inner-bottom").slideToggle(300);
-		$(this).toggleClass("active");	
-		event.preventdefault();	
-	}); 
+  //    $('#sign-in').openModal({
+		//     dismissible: false, 
+		// });
 });
- 
+(function($) {
+    $(window).load(function() {
+        $("#list-notification").mCustomScrollbar({
+            scrollButtons: {
+                enable: false
+            },
+            theme: 'light-thin',
+            scrollbarPosition: "onside",
+        });
+        $('#list-notification').mCustomScrollbar('scrollTo', 'top');
+        $("#message-content").mCustomScrollbar({
+            scrollButtons: {
+                enable: false
+            },
+            theme: 'light-thin',
+            scrollbarPosition: "onside",
+        });
+    });
+})(jQuery);

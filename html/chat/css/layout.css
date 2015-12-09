@@ -79,7 +79,7 @@ footer {
 }
 .slidebar ul.side-nav.full li a,
 .slidebar ul.side-nav.fixed li a {
-  padding: 15px 15px 16px;
+  padding: 15px 15px 15px;
   font-size: 16px;
   height: auto;
   line-height: normal;
@@ -122,6 +122,151 @@ footer {
   padding-bottom: 58px;
 }
 
+.box-notification {
+    position: fixed;
+    bottom: 0;
+    top: 200px;
+    left: 0;
+    width: 240px;
+    z-index: 999;
+}
+
+.box-name .fa.fa-check-circle-o{
+  color: gold
+}
+
+.box-name .fa.fa-circle-o{
+  color: #ccc
+}
+
+.box-notification ul li {
+    line-height: normal;
+    padding: 0;
+    /*border-bottom: 1px solid #ccc;*/
+    height: 75px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.box-notification ul li:hover {
+    border-bottom: 1px solid #ccc;
+}
+
+.box-notification .symboy-inbox {
+    color: #0087C3;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 22px;
+    text-align: center;
+    background-color: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    border: solid 1px #0087c3;
+}
+
+.notification .write-inbox {
+    width: 50px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.notification .box-body{
+    display: inline-block;
+}
+.notification .box-body .box-comment{
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px 5px;
+    background-color: #e0e0e0;
+    color: #424242;
+}
+
+.notification .name-user {
+    background-color: #FFF;
+    padding: 3px 0px 3px 0px;
+    font-size: 15px;
+    color: #000;
+}
+
+.notification .time {
+    background-color: #FFF;
+    font-size: 10px;
+    color: #0087C3;
+}
+
+#list-notification{
+    overflow: hidden;
+    position: relative;
+    height: 400px;
+}
+
+.label-notification{
+  font-size: 15px;
+  border-bottom: 1px solid #ccc;
+  width: 239px;
+
+}
+
+.label-notification span{
+ color: #ccc;
+ margin: 10px
+}
+/* list user */
+.list-user .item-user{
+  border-bottom: 1px solid #ccc;
+  width: 100%
+}
+
+.list-user li .item-panel{
+  width: 100%
+}
+
+.list-user .item-action{
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 25%;
+  border: 1px solid #ccc
+}
+
+.box-action .item-action i {
+  text-align: center;
+  width: 45px;
+  height: 32px;
+  vertical-align: sub;
+}
+
+.list-user .item-action:hover{
+  border: 1px solid #0087c3;
+  cursor: pointer;
+}
+
+.list-user .item-user:hover{
+  border-bottom: 2px solid #0087C3;
+  cursor: auto;
+}
+
+.box-infor i{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.box-location{
+  color: #ccc
+}
+
+.box-action{
+}
+
 /* group-chat */
 .group-chat:before, .group-chat:after {
   content: " ";
@@ -141,6 +286,25 @@ footer {
   clear: both;
 }
 
+.group-chat .comment {
+}
+.group-chat .name-user {
+    background-color: #FFF;
+    padding: 3px 10px 3px 0px;
+    font-size: 15px;
+    color: #0087C3;
+}
+.group-chat .time {
+    font-size: 10px;
+    color: #0087C3;
+}
+
+#message-content {
+    overflow: hidden;
+    position: relative;
+    top: 0px;
+    height: 500px;
+}
 .item-panel {
   margin-top: 10px;
   display: table;
@@ -186,7 +350,8 @@ footer {
   width: 50px;
   padding-left: 10px;
   padding-right: 10px;
-  vertical-align: top;
+  vertical-align: bottom;
+  padding-bottom: 10px;
 }
 .item-panel .write-inbox .symboy-inbox {
   color: #0087C3;
@@ -214,7 +379,7 @@ footer {
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   border-radius: 6px;
-  display: inline-block;
+  margin: 2px 0 2px 0;
   padding: 7px 13px;
   background-color: #e0e0e0;
   color: #424242;
@@ -237,6 +402,10 @@ footer {
   right: 0;
   z-index: 1;
 }
+.post-commnent .action-commnent.trash{
+  margin: 0 -10px 0 20px;
+}
+
 .post-commnent .action-commnent {
   float: left;
   width: 30px;
@@ -314,7 +483,7 @@ footer {
   right: 0;
   top: 13px;
   color: #0087C3;
-  font-size: 2.3rem;
+  font-size: 1.3rem;
   padding: 0 !important;
   height: auto !important;
   line-height: normal !important;
@@ -330,17 +499,19 @@ footer {
 }
 
 /* popup clean and sign out */
-#clean, #sign-out {
+#clean, #sign-out ,#sign-in{
   background-color: #fff;
   max-width: 500px;
   width: 94%;
 }
-#clean .btn, #sign-out .btn {
-  margin: 0 10px;
-  background-color: #0087C3;
-  float: none;
+#clean .btn, #sign-out .btn, #sign-in .btn {
+    margin: 0 10px;
+    background-color: #fff;
+    float: none;
+    color: #0087C3;
+    border: 1px solid #0087C3;
 }
-#clean h5, #sign-out h5 {
+#clean h5, #sign-out h5, #sign-in h5 {
   margin-bottom: 30px;
 }
 #clean .modal-footer, #sign-out .modal-footer {
@@ -350,9 +521,68 @@ footer {
   padding: 0;
 }
 
+/* login */
+.form-login {
+}
+
+.form-login .field {
+    position: relative; /* For the icon positioning */
+   text-align: center;
+
+}
+
+.form-login .field i {
+    /* Size and position */
+    left: 15px;
+    top: 1px;
+    position: absolute;
+    height: 45px;
+    width: 36px;
+
+    /* Line */
+    border-right: 1px solid #0087C3;
+
+    /* Styles */
+    color: #0087C3;
+    text-align: center;
+    line-height: 42px;
+}
+
+.form-login input[type=text],
+.form-login input[type=password] {
+    font-size: 13px;
+    font-weight: 400;
+    border: 1px solid #0087C3;
+    /* Size and position */
+    width: 80%;
+    padding: 0px 18px 0px 45px;
+
+    /* Styles */
+    border-radius: 3px;
+    background: #f9f9f9;
+    color: #000;
+}
+
+.form-login input[type=text] {
+    margin-bottom: 10px;
+}
+
+.form-login input[type=text]:hover ~ i,
+.form-login input[type=password]:hover ~ i {
+    color: #0087C3;
+}
+
+.form-login input[type=text]:focus,
+.form-login input[type=password]:focus,
+.form-login input[type=text]:focus ~ i,
+.form-login input[type=password]:focus ~ i {
+    color: #0087C3;
+}
+
+
 /* media query */
 @media only screen and (min-width: 993px) {
-  ul.side-nav.fixed {
+  .side-nav.fixed {
     left: 0 !important;
   }
 }
@@ -366,6 +596,11 @@ footer {
   .navigation {
     height: 48px;
   }
+
+  .box-notification {
+    left: -250px
+  }
+
   .navigation h1 {
     position: absolute;
     left: 0;
@@ -384,8 +619,9 @@ footer {
   }
 }
 @media only screen and (max-width: 600px) {
-  .navigation .top-action {
-    display: none;
+
+  .box-notification {
+    left: -250px
   }
 
   .post-commnent {
