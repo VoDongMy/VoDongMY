@@ -1,0 +1,48 @@
+.page_privacy{
+	background-color:$color-a;
+	position: relative;
+  padding: 70px 0 135px;
+  .headline{
+    @include headline_triangle(320px,160px,120px,30px);
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -160px;
+    z-index: 10;
+    line-height: 35px;
+    font-size: 22px;
+    padding-top: 18px;
+    box-sizing: border-box;
+    }
+  .privacy_arrow_down{
+    width: 0px;
+    height: 0px;
+    border-left: 160px solid transparent;
+    border-right: 160px solid transparent;
+    border-top: 160px solid #a29175;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    right: 510px;
+  }
+  .privacy_content{
+    background-color:$color-b;
+    width: 880px;
+    box-sizing: border-box;
+    margin:0 auto;
+    color:$color-f;
+    padding: 150px 90px 90px;
+    font-size: 14px;
+  }
+  .privacy_content_above{
+    padding-bottom: 54px;
+    border-bottom: 1px solid $color-h;
+  }
+  .privacy_content_below{
+    margin-top:53px;
+  }
+  .block{
+    margin-top:35px;
+  } 
+}
+

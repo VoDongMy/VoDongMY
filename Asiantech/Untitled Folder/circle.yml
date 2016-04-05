@@ -1,0 +1,19 @@
+machine:
+  php:
+    version: 5.5.9
+dependencies:
+  pre:
+    - cp .env.example .env
+    - pear install PHP_CodeSniffer
+    - gem install --no-document checkstyle_filter-git saddler saddler-reporter-github
+
+test:
+  override:
+    # phpcs report github
+    - scripts/saddler.sh
+    # phpcs circleci status
+    - ./vendor/bin/phpcs -n --standard=phpcs.xml
+    # phpmd
+    - ./vendor/bin/phpmd app text phpmd.xml
+    # phpunit
+    - ./vendor/bin/phpunit

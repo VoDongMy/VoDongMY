@@ -1,0 +1,17 @@
+.loading_page{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	background: #000;
+	padding-top: 329px;
+	padding-bottom: 449px;
+	.loading_logo{
+		float: right;
+		margin-right: 53px;
+	}
+	.moving_bar{
+		margin-top: 102px;
+    	position: relative;
+    	top: 19px;
+	}
+}

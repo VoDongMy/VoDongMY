@@ -1,0 +1,105 @@
+@mixin size-icons($width, $height, $line-height) {
+  width: $width;
+  height: $height;
+  line-height: $line-height;
+}
+[class^="icons_"], [class*=" icons_"] {
+    display: inline-block;
+    vertical-align: text-top;
+}
+.icons_list{
+  @include sprite($icons_introduce);
+  margin: 10px 15px 0px 0px;
+}
+.icons_caret{
+  @include sprite($icons_caret1);
+  margin: 45px 50% 30px;
+}
+.icons_mail {
+   @include sprite($icon_mail);
+}
+.icons_facebook {
+  @include sprite($icon_facebook);
+}
+.icons_insta {
+  @include sprite($icon_insta);
+}
+.icons_contact{
+ @include sprite($icons_contact);
+}
+.icons_message{
+  @include sprite($message);
+  float: left;
+  margin-top: 87px;
+  margin-right: 15px;
+}
+.icons_clock{
+  @include sprite($icons_clock);
+  margin: -7px 20px 0 0;
+}
+.icons_package{
+  @include sprite($icons_package);
+  margin: -7px 20px 0 0;
+}
+.icons_lorem1{
+  @include sprite($icons_lorem1);
+  margin: 40px 0;
+}
+.icons_lorem2{
+  @include sprite($icons_lorem2);
+  margin: 40px 0;
+}
+.icons_lorem3{
+  @include sprite($icons_lorem3);
+  margin: 40px 0;
+}
+.icons_lorem4{
+  @include sprite($icons_lorem4);
+  margin: 40px 0;
+}
+.icons_lorem5{
+  @include sprite($icons_lorem5);
+  margin: 40px 0;
+}
+.icons_lorem6{
+  @include sprite($icons_lorem6);
+  margin: 40px 0;
+}
+.icons_lorem7{
+  @include sprite($icons_lorem7);
+  margin: 40px 20px;
+}
+.icons_lorem8{
+  @include sprite($icons_lorem8);
+  margin: 40px 20px;
+}
+.icons_lorem9{
+  @include sprite($icons_lorem9);
+  margin: 40px 20px;
+}
+.icons_icon1{
+  @include sprite($icon1);
+  float: right;
+  margin-top: -5px;
+  width: 30px;
+  border-radius: 15px;
+  background-color: #313131;
+  margin-right: 15px;
+}
+.icons_icon2{
+  @include sprite($icon2);
+  float: right;
+  margin-top: -5px;
+  width: 30px;
+  background-position: -52px -194px;  
+  border-radius: 15px;
+  background-color: #313131;
+}
+.icons_lorem10{
+  @include sprite($icons_lorem10);
+  margin: 40px 20px;
+}
+
+.icons_more{
+  @include sprite($icon_more);
+}

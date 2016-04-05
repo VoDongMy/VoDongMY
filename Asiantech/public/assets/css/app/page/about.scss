@@ -1,0 +1,294 @@
+.page_about {
+  min-width: 1200px;
+  *::selection{
+    background: $color-d;
+    color: #fff;
+  }
+  .container_fluid {
+    position: relative;
+  }
+  .bg_about {
+    background-color: $color-i;
+  }
+  .row_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    .col_flex {
+      flex: 1;
+      width: 50%;
+    }
+  }
+  .block_image {
+    width: 100%;
+    height: 490px;
+    position: relative;
+  }
+  .img_introduce {
+    background:url(#{$base-url-b}/img-about.png) no-repeat right;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-size:cover;
+  }
+  @media screen and (min-width: 1200px) {
+    .img_introduce {
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+  .about_us {
+    background-color: $color-i;
+    .container_text {
+      padding: 65px 81px 50px 67px;
+    }
+    .title_name {
+      margin-bottom: 24px;
+    }
+    .title_about {
+      color: $color-f;
+      font: 27px/1.6 $font-family-b;
+    }
+  }
+  .advertisement {
+    font-size: 15px;
+    line-height: 1.6;
+    color: $color-f;
+    letter-spacing: 1px;
+  }
+  .headline {
+    @include headline_triangle(320px, 160px, 120px, 30px);
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .headline.arrow_up {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -160px;
+  }
+  .container_explain {
+    width: 762px;
+    margin: 0 auto;
+    background: url(#{$base-url-b}/bg-vietnam.png) no-repeat center;
+    &::after {
+      content: "";
+      clear: both;
+      display: block;
+    }
+    .text_explain {
+      text-align: center;
+      font: 27px/1.6 $font-family-b;
+      padding: 60px 0px;
+      color: $color-d;
+      letter-spacing: 1px;
+    }
+    .text_information {
+      font-size: 15px;
+      line-height: 1.6;
+      letter-spacing: 1px;
+      padding-bottom: 56px;
+    }
+  }
+  .container_ceo {
+    position: relative;
+    background-color: $color-a;
+    padding-bottom: 83px;
+    .text_message {
+      color: $color-f;
+      font-style: normal;
+      font-size: 15px;
+      line-height: 1.6;
+      font-family: $font-family-a;
+      position: absolute;
+      top: 14px;
+      left: 0;
+      right: 0;
+    }
+  }
+  .content_ceo {
+    position: relative;
+    width: 762px;
+    background-color: $color-b;
+    margin: 0 auto;
+    margin-top: 140px;
+    .block_img {
+      position: absolute;
+      top: -80px;
+      left: 50%;
+      margin-left: -80px;
+      .img_ceo {
+        border-radius: 50%;
+      }
+    }
+    .container_block {
+      padding: 123px 0 84px;
+      width: 560px;
+      margin: 0 auto;
+    }
+    .name_ceo {
+      font: 28px/1.6 $font-family-b;
+      font-style: italic;
+      color: $color-e;
+      text-align: center;
+      padding-bottom: 40px;
+      border-bottom: 1px solid $color-f;
+    }
+  }
+  .container_block {
+    .title_text {
+      color: $color-f;
+      font-size: 20px;
+      line-height: 1.6;
+      text-align: center;
+      letter-spacing: 2px;
+      margin-bottom: 37px;
+    }
+    .content_text {
+      font-size: 15px;
+      line-height: 1.6;
+      color: $color-f;
+      letter-spacing: 1px;
+    }
+  }
+  .container_history {
+    position: relative;
+    .headline {
+      margin-bottom: 60px;
+    }
+  }
+  .content_history {
+    width: 884px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 72px;
+    .timeline {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      position: relative;
+      width: 50%;
+      .relevant {
+        display: block;
+        position: relative;
+        .number_history {
+          position: absolute;
+          font: 22px/1.6 $font-family-b;
+          color: $color-d;
+          top: 32px;
+        }
+        .block_history {
+          .text_history {
+            padding: 45px 60px 45px 35px;
+            text-align: center;
+            background: $color-o;
+            color: $color-d;
+            font-size: 15px;
+            line-height: 1.6;
+          }
+        }
+      }
+      &:before {
+        content: "";
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        bottom: 50px;
+        z-index: 0;
+        border-right: 1px solid $color-p;
+        visibility: visible;
+        animation-name: fadeIn;
+      }
+      .relevant:nth-child(even) {
+        margin-right: 26px;
+        .block_history {
+          .text_history {
+            margin: 0 14px;
+            &:after {
+              content: '';
+              position: absolute;
+              display: block;
+              border-width: 22px 0 22px 16px;
+              border-style: solid;
+              border-color: transparent $color-o;
+              right: 0;
+              top: 32px;
+            }
+          }
+        }
+        .number_history {
+          left: 100%;
+          margin-left: 65px;
+        }
+        &:after {
+          content: "";
+          background: $color-d;
+          width: 12px;
+          height: 12px;
+          position: absolute;
+          border-radius: 50%;
+          float: left;
+          top: 46%;
+          right: -31px;
+          visibility: visible;
+          animation-duration: 5s;
+          animation-name: fadeIn;
+        }
+      }
+      .relevant:nth-child(odd) {
+        left: 100%;
+        margin-left: 10px;
+        .block_history {
+          .text_history {
+            margin: 16px 28px;
+            &:after {
+              width: 0;
+              content: '';
+              position: absolute;
+              display: block;
+              border-width: 22px 16px 22px 0;
+              border-style: solid;
+              border-color: transparent $color-o;
+              left: 13px;
+              top: 32px;
+            }
+            &:before {
+              width: 0;
+              content: '';
+              position: absolute;
+              display: block;
+              border-width: 22px 16px 22px 0;
+              border-style: solid;
+              border-color: transparent $color-o;
+              left: 12px;
+              top: 32px;
+            }
+          }
+        }
+        .number_history {
+          right: 100%;
+          margin-right: 50px;
+          white-space: nowrap;
+        }
+        &:before {
+          content: "";
+          background: $color-d;
+          width: 12px;
+          height: 12px;
+          position: absolute;
+          border-radius: 50%;
+          float: right;
+          top: 48px;
+          left: -17px;
+          visibility: visible;
+          animation-duration: 5s;
+          animation-name: fadeIn;
+        }
+      }
+    }
+  }
+}

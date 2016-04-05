@@ -1,0 +1,9 @@
+.x_scrollFadeIn{
+  opacity: 0;
+  transform: translate(0,90px);
+  transition: opacity .6s .1s,transform .6s ease;
+  &.in_view{
+    opacity: 1;
+    transform: translate(0,0);
+  }
+}

@@ -1,0 +1,34 @@
+@mixin button($dp-style, $width, $height, $line-height, $color-m,$color-m ) {
+  display:$dp-style;
+  width: $width;
+  height: $height;
+  line-height: $line-height;
+  overflow: hidden;
+  position:relative;
+  z-index:2;
+  transition: all 0.3s;
+  text-align: center;
+  text-decoration: none;
+  &::before,
+  &::after {
+    position: absolute;
+    display: block;
+    content: '';
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s;
+    top: 0;
+    left: 0;
+    background-color: $color-m;
+  }
+  &:hover {
+    color: $color-d;
+    &::after {
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transform: scale(2) rotate(180deg);
+      background-color: $color-m;
+    }
+  }
+}

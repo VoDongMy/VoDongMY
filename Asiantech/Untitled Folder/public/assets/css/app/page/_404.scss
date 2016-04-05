@@ -1,0 +1,41 @@
+.page_404{
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	background: #000;
+	.logo{
+		text-align: center;
+		padding-top: 215px;
+		margin-bottom: 92px;
+	}
+	.error{
+		font-family: $font-family-b;
+		font-size: 78.19px;
+		color: #fff;
+		text-align: center;
+		letter-spacing: 1px;
+	}
+	.error_text{
+		font-family: $font-family-b;
+		font-size: 28.89px;
+		font-style: italic;
+		color: #fff;
+		text-align: center;
+		margin-top: -2px;
+    	letter-spacing: 1px;
+	}
+	.back{
+		text-align: center;
+		margin-top: 94px;
+		padding-bottom: 240px;
+		.back_btn{
+			color: #bfac8a;
+			font-size: 11px;
+			text-align: center;
+			border: 1px solid #bfac8a;
+			background: none;
+			padding: 14px 45px;
+    		letter-spacing: 1px;
+		}
+	}
+}

@@ -1,0 +1,240 @@
+.page_team{
+  .headline{
+    @include headline_triangle(320px,160px,120px,30px);
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .term{
+    padding-bottom: 80px;
+    background-color: $color-a;
+    .content{
+      width: $width-a;
+      margin: 0 auto;
+    }
+    .team_list{
+      @extend %clearfix;
+    }
+    .team_item{
+      float: left;
+      width: 50%;
+      margin-bottom:40px;
+      box-sizing:border-box;
+      &:nth-child(odd){
+        padding-right: 20px;
+      }
+      &:nth-child(even){
+        padding-left: 20px;
+          &:nth-last-child(2){
+          margin-bottom:40px;
+        }
+      }
+      &:nth-last-child(1),
+      &:nth-last-child(2){
+        margin-bottom:0px;
+      }
+      
+
+    }
+    .team_image{
+
+    }
+    .above{
+      background-color: #fff;
+      display: table;
+      width: 100%;
+      vertical-align: middle;
+    }
+    .team_name{
+      display: table-cell;
+      width: 130px;
+      box-sizing:border-box;
+      border-right: 1px solid $color-a;
+      font-family: $font-family-b;
+      font-style: normal;
+      font-size: 18px;
+      color: $color-e;
+      text-align: center;
+      padding: 30px 4px;
+      vertical-align: middle;
+    }
+    .team_description{
+      display: table-cell;
+      color: #a6a6a6;
+      font-size: 15px;
+      box-sizing:border-box;
+      text-align: center;
+      vertical-align: middle;
+
+    }
+
+  }
+  .interview{
+    background-color: $color-c;
+    .content{
+      width: $width-a + 40 * 2;
+      margin: 0 auto;
+    }
+    .member_list{
+      text-align: center;
+      width: 100%;
+      letter-spacing: -.40em; /* to remove inline-block space */
+    }
+    .member_item{
+      display: inline-block;
+      letter-spacing: normal;
+      width: 20%;
+      box-sizing: border-box;
+      padding: 0 8px;
+      height: 276px;
+      &.animation{
+        transition-property: height;
+        transition-timing-function: easy;
+        transition-duration: 800ms;  
+        .interview_detail{
+          transition-property: max-height;
+          transition-timing-function: easy;
+          transition-duration: 800ms;  
+        }
+      }
+      &.open{
+        height: 244 + 32 + 486 + 32px;
+        .member_detail{
+          &:before{
+            position: absolute;
+            bottom: -32px;
+            content: "";
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 10px 10px 10px;
+            border-color: transparent transparent $color-b transparent;
+            margin-left: -10px;
+            display: inline-block;
+          }
+        }
+        .interview_detail{
+          max-height: 480px;
+        }
+
+      }
+    }
+    .member_detail{
+      margin-bottom: 32px;
+      position: relative;
+    }
+    .member_image{
+      position: relative;
+      cursor: pointer;
+      margin-bottom: 20px;
+      height: 170px;
+      &:hover{
+        .front_image{
+          transform: rotateY(180deg);
+        }
+        .back_image{
+          transform: rotateY(360deg);
+
+        }
+
+      }
+      .front_image,
+      .back_image{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -88px;
+        border-radius: 50pc;
+        width: 166px;
+        height: 166px;
+        border: 2px solid #fff;
+        text-align: center;
+        overflow: hidden;
+        backface-visibility: hidden;
+        transition: all .8s ease;
+      }
+      .back_image{
+        transform: rotateY(180deg);
+      }
+
+    }
+    .member_name{
+      font-size: 18px;
+      color: #ffffff;
+      text-align: center;
+      margin-bottom: 10px;
+
+    }
+    .member_team{
+      font-size: 14px;
+      color: $color-h;
+
+    }
+    .interview_detail{
+      position: absolute;
+      overflow-y: hidden;
+      max-height:0;
+      left: 0;
+      width: 100%;
+      background-color: $color-b;
+    }
+    .interview_list{
+      @extend %clearfix;
+      width: $width-a + 40 * 2;
+      margin: 0 auto;
+      padding: 36px 0;
+    }
+    .interview_item{
+      float: left;
+      width: 50%;
+      box-sizing: border-box;
+      padding: 0 20px;
+      padding-bottom: 24px;
+      height: 138px;
+      .horizontal_rule{
+        border: 1px #2d2d2d solid;
+      }
+    }
+    .interview_question,
+    .interview_answer{
+      text-align: left;
+      .logo{
+        float: left;
+        padding: 0 2px;
+        box-sizing: border-box;
+        font-size: 14px;
+        width: 45px;
+        text-align: center;
+        border-radius: 16px;
+        letter-spacing: 1px;
+        margin-right: 8px;
+        
+      }
+      .text{
+        display: block;
+        padding-left: 54px;
+        height: 38px;
+      }
+    }
+    .interview_question{
+      margin-bottom: 16px;
+      .logo{
+        color: #ffffff;
+        background-color: $color-d;
+      }
+      .text{
+        color: $color-d;
+      }
+
+    }
+    .interview_answer{
+      margin-bottom: 24px;
+      .logo{
+        color: #a4a4a4;
+        background-color: #484848;
+      }
+      .text{
+        color: #ffffff;
+      }
+    }
+  }
+}

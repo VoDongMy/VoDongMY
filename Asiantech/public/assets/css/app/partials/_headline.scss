@@ -1,0 +1,28 @@
+@mixin headline_triangle($width, $height, $line_height, $font-size) {
+  width: $width;
+  height: $height;
+  position: relative;
+  text-align: center;
+  line-height: $line_height;
+  color: #ffffff;
+  .text{
+    color: #ffffff;
+    font-size: $font-size;
+    font-style: italic;
+    font-family: $font-family-b;
+    position: relative;
+    z-index: 10;
+  }
+  &:after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: $width/2 $height 0 $height;
+    z-index: 0;
+    border-color: $color-d transparent transparent transparent;
+  }
+}

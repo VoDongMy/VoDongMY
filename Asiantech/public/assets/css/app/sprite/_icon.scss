@@ -1,0 +1,323 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$icon1-name: 'icon1';
+$icon1-x: 0px;
+$icon1-y: 194px;
+$icon1-offset-x: 0px;
+$icon1-offset-y: -194px;
+$icon1-width: 40px;
+$icon1-height: 30px;
+$icon1-total-width: 267px;
+$icon1-total-height: 224px;
+$icon1-image: '../images/sprite/icons.png';
+$icon1: (0px, 194px, 0px, -194px, 40px, 30px, 267px, 224px, '../images/sprite/icons.png', 'icon1', );
+$icon2-name: 'icon2';
+$icon2-x: 44px;
+$icon2-y: 194px;
+$icon2-offset-x: -44px;
+$icon2-offset-y: -194px;
+$icon2-width: 38px;
+$icon2-height: 30px;
+$icon2-total-width: 267px;
+$icon2-total-height: 224px;
+$icon2-image: '../images/sprite/icons.png';
+$icon2: (44px, 194px, -44px, -194px, 38px, 30px, 267px, 224px, '../images/sprite/icons.png', 'icon2', );
+$icon-facebook-name: 'icon_facebook';
+$icon-facebook-x: 233px;
+$icon-facebook-y: 179px;
+$icon-facebook-offset-x: -233px;
+$icon-facebook-offset-y: -179px;
+$icon-facebook-width: 10px;
+$icon-facebook-height: 19px;
+$icon-facebook-total-width: 267px;
+$icon-facebook-total-height: 224px;
+$icon-facebook-image: '../images/sprite/icons.png';
+$icon-facebook: (233px, 179px, -233px, -179px, 10px, 19px, 267px, 224px, '../images/sprite/icons.png', 'icon_facebook', );
+$icon-insta-name: 'icon_insta';
+$icon-insta-x: 233px;
+$icon-insta-y: 100px;
+$icon-insta-offset-x: -233px;
+$icon-insta-offset-y: -100px;
+$icon-insta-width: 18px;
+$icon-insta-height: 18px;
+$icon-insta-total-width: 267px;
+$icon-insta-total-height: 224px;
+$icon-insta-image: '../images/sprite/icons.png';
+$icon-insta: (233px, 100px, -233px, -100px, 18px, 18px, 267px, 224px, '../images/sprite/icons.png', 'icon_insta', );
+$icon-mail-name: 'icon_mail';
+$icon-mail-x: 233px;
+$icon-mail-y: 122px;
+$icon-mail-offset-x: -233px;
+$icon-mail-offset-y: -122px;
+$icon-mail-width: 20px;
+$icon-mail-height: 15px;
+$icon-mail-total-width: 267px;
+$icon-mail-total-height: 224px;
+$icon-mail-image: '../images/sprite/icons.png';
+$icon-mail: (233px, 122px, -233px, -122px, 20px, 15px, 267px, 224px, '../images/sprite/icons.png', 'icon_mail', );
+$icon-more-name: 'icon_more';
+$icon-more-x: 257px;
+$icon-more-y: 36px;
+$icon-more-offset-x: -257px;
+$icon-more-offset-y: -36px;
+$icon-more-width: 10px;
+$icon-more-height: 10px;
+$icon-more-total-width: 267px;
+$icon-more-total-height: 224px;
+$icon-more-image: '../images/sprite/icons.png';
+$icon-more: (257px, 36px, -257px, -36px, 10px, 10px, 267px, 224px, '../images/sprite/icons.png', 'icon_more', );
+$icons-attractment-name: 'icons_attractment';
+$icons-attractment-x: 233px;
+$icons-attractment-y: 80px;
+$icons-attractment-offset-x: -233px;
+$icons-attractment-offset-y: -80px;
+$icons-attractment-width: 21px;
+$icons-attractment-height: 16px;
+$icons-attractment-total-width: 267px;
+$icons-attractment-total-height: 224px;
+$icons-attractment-image: '../images/sprite/icons.png';
+$icons-attractment: (233px, 80px, -233px, -80px, 21px, 16px, 267px, 224px, '../images/sprite/icons.png', 'icons_attractment', );
+$icons-caret1-name: 'icons_caret1';
+$icons-caret1-x: 233px;
+$icons-caret1-y: 141px;
+$icons-caret1-offset-x: -233px;
+$icons-caret1-offset-y: -141px;
+$icons-caret1-width: 19px;
+$icons-caret1-height: 15px;
+$icons-caret1-total-width: 267px;
+$icons-caret1-total-height: 224px;
+$icons-caret1-image: '../images/sprite/icons.png';
+$icons-caret1: (233px, 141px, -233px, -141px, 19px, 15px, 267px, 224px, '../images/sprite/icons.png', 'icons_caret1', );
+$icons-clock-name: 'icons_clock';
+$icons-clock-x: 196px;
+$icons-clock-y: 61px;
+$icons-clock-offset-x: -196px;
+$icons-clock-offset-y: -61px;
+$icons-clock-width: 33px;
+$icons-clock-height: 38px;
+$icons-clock-total-width: 267px;
+$icons-clock-total-height: 224px;
+$icons-clock-image: '../images/sprite/icons.png';
+$icons-clock: (196px, 61px, -196px, -61px, 33px, 38px, 267px, 224px, '../images/sprite/icons.png', 'icons_clock', );
+$icons-contact-name: 'icons_contact';
+$icons-contact-x: 233px;
+$icons-contact-y: 160px;
+$icons-contact-offset-x: -233px;
+$icons-contact-offset-y: -160px;
+$icons-contact-width: 19px;
+$icons-contact-height: 15px;
+$icons-contact-total-width: 267px;
+$icons-contact-total-height: 224px;
+$icons-contact-image: '../images/sprite/icons.png';
+$icons-contact: (233px, 160px, -233px, -160px, 19px, 15px, 267px, 224px, '../images/sprite/icons.png', 'icons_contact', );
+$icons-introduce-name: 'icons_introduce';
+$icons-introduce-x: 233px;
+$icons-introduce-y: 58px;
+$icons-introduce-offset-x: -233px;
+$icons-introduce-offset-y: -58px;
+$icons-introduce-width: 20px;
+$icons-introduce-height: 18px;
+$icons-introduce-total-width: 267px;
+$icons-introduce-total-height: 224px;
+$icons-introduce-image: '../images/sprite/icons.png';
+$icons-introduce: (233px, 58px, -233px, -58px, 20px, 18px, 267px, 224px, '../images/sprite/icons.png', 'icons_introduce', );
+$icons-lorem1-name: 'icons_lorem1';
+$icons-lorem1-x: 53px;
+$icons-lorem1-y: 128px;
+$icons-lorem1-offset-x: -53px;
+$icons-lorem1-offset-y: -128px;
+$icons-lorem1-width: 61px;
+$icons-lorem1-height: 48px;
+$icons-lorem1-total-width: 267px;
+$icons-lorem1-total-height: 224px;
+$icons-lorem1-image: '../images/sprite/icons.png';
+$icons-lorem1: (53px, 128px, -53px, -128px, 61px, 48px, 267px, 224px, '../images/sprite/icons.png', 'icons_lorem1', );
+$icons-lorem10-name: 'icons_lorem10';
+$icons-lorem10-x: 196px;
+$icons-lorem10-y: 0px;
+$icons-lorem10-offset-x: -196px;
+$icons-lorem10-offset-y: 0px;
+$icons-lorem10-width: 33px;
+$icons-lorem10-height: 57px;
+$icons-lorem10-total-width: 267px;
+$icons-lorem10-total-height: 224px;
+$icons-lorem10-image: '../images/sprite/icons.png';
+$icons-lorem10: (196px, 0px, -196px, 0px, 33px, 57px, 267px, 224px, '../images/sprite/icons.png', 'icons_lorem10', );
+$icons-lorem2-name: 'icons_lorem2';
+$icons-lorem2-x: 65px;
+$icons-lorem2-y: 0px;
+$icons-lorem2-offset-x: -65px;
+$icons-lorem2-offset-y: 0px;
+$icons-lorem2-width: 61px;
+$icons-lorem2-height: 61px;
+$icons-lorem2-total-width: 267px;
+$icons-lorem2-total-height: 224px;
+$icons-lorem2-image: '../images/sprite/icons.png';
+$icons-lorem2: (65px, 0px, -65px, 0px, 61px, 61px, 267px, 224px, '../images/sprite/icons.png', 'icons_lorem2', );
+$icons-lorem3-name: 'icons_lorem3';
+$icons-lorem3-x: 0px;
+$icons-lorem3-y: 128px;
+$icons-lorem3-offset-x: 0px;
+$icons-lorem3-offset-y: -128px;
+$icons-lorem3-width: 49px;
+$icons-lorem3-height: 62px;
+$icons-lorem3-total-width: 267px;
+$icons-lorem3-total-height: 224px;
+$icons-lorem3-image: '../images/sprite/icons.png';
+$icons-lorem3: (0px, 128px, 0px, -128px, 49px, 62px, 267px, 224px, '../images/sprite/icons.png', 'icons_lorem3', );
+$icons-lorem4-name: 'icons_lorem4';
+$icons-lorem4-x: 63px;
+$icons-lorem4-y: 65px;
+$icons-lorem4-offset-x: -63px;
+$icons-lorem4-offset-y: -65px;
+$icons-lorem4-width: 57px;
+$icons-lorem4-height: 57px;
+$icons-lorem4-total-width: 267px;
+$icons-lorem4-total-height: 224px;
+$icons-lorem4-image: '../images/sprite/icons.png';
+$icons-lorem4: (63px, 65px, -63px, -65px, 57px, 57px, 267px, 224px, '../images/sprite/icons.png', 'icons_lorem4', );
+$icons-lorem5-name: 'icons_lorem5';
+$icons-lorem5-x: 0px;
+$icons-lorem5-y: 0px;
+$icons-lorem5-offset-x: 0px;
+$icons-lorem5-offset-y: 0px;
+$icons-lorem5-width: 61px;
+$icons-lorem5-height: 61px;
+$icons-lorem5-total-width: 267px;
+$icons-lorem5-total-height: 224px;
+$icons-lorem5-image: '../images/sprite/icons.png';
+$icons-lorem5: (0px, 0px, 0px, 0px, 61px, 61px, 267px, 224px, '../images/sprite/icons.png', 'icons_lorem5', );
+$icons-lorem6-name: 'icons_lorem6';
+$icons-lorem6-x: 130px;
+$icons-lorem6-y: 56px;
+$icons-lorem6-offset-x: -130px;
+$icons-lorem6-offset-y: -56px;
+$icons-lorem6-width: 56px;
+$icons-lorem6-height: 56px;
+$icons-lorem6-total-width: 267px;
+$icons-lorem6-total-height: 224px;
+$icons-lorem6-image: '../images/sprite/icons.png';
+$icons-lorem6: (130px, 56px, -130px, -56px, 56px, 56px, 267px, 224px, '../images/sprite/icons.png', 'icons_lorem6', );
+$icons-lorem7-name: 'icons_lorem7';
+$icons-lorem7-x: 118px;
+$icons-lorem7-y: 128px;
+$icons-lorem7-offset-x: -118px;
+$icons-lorem7-offset-y: -128px;
+$icons-lorem7-width: 62px;
+$icons-lorem7-height: 47px;
+$icons-lorem7-total-width: 267px;
+$icons-lorem7-total-height: 224px;
+$icons-lorem7-image: '../images/sprite/icons.png';
+$icons-lorem7: (118px, 128px, -118px, -128px, 62px, 47px, 267px, 224px, '../images/sprite/icons.png', 'icons_lorem7', );
+$icons-lorem8-name: 'icons_lorem8';
+$icons-lorem8-x: 130px;
+$icons-lorem8-y: 0px;
+$icons-lorem8-offset-x: -130px;
+$icons-lorem8-offset-y: 0px;
+$icons-lorem8-width: 62px;
+$icons-lorem8-height: 52px;
+$icons-lorem8-total-width: 267px;
+$icons-lorem8-total-height: 224px;
+$icons-lorem8-image: '../images/sprite/icons.png';
+$icons-lorem8: (130px, 0px, -130px, 0px, 62px, 52px, 267px, 224px, '../images/sprite/icons.png', 'icons_lorem8', );
+$icons-lorem9-name: 'icons_lorem9';
+$icons-lorem9-x: 0px;
+$icons-lorem9-y: 65px;
+$icons-lorem9-offset-x: 0px;
+$icons-lorem9-offset-y: -65px;
+$icons-lorem9-width: 59px;
+$icons-lorem9-height: 59px;
+$icons-lorem9-total-width: 267px;
+$icons-lorem9-total-height: 224px;
+$icons-lorem9-image: '../images/sprite/icons.png';
+$icons-lorem9: (0px, 65px, 0px, -65px, 59px, 59px, 267px, 224px, '../images/sprite/icons.png', 'icons_lorem9', );
+$icons-package-name: 'icons_package';
+$icons-package-x: 233px;
+$icons-package-y: 0px;
+$icons-package-offset-x: -233px;
+$icons-package-offset-y: 0px;
+$icons-package-width: 34px;
+$icons-package-height: 32px;
+$icons-package-total-width: 267px;
+$icons-package-total-height: 224px;
+$icons-package-image: '../images/sprite/icons.png';
+$icons-package: (233px, 0px, -233px, 0px, 34px, 32px, 267px, 224px, '../images/sprite/icons.png', 'icons_package', );
+$message-name: 'message';
+$message-x: 233px;
+$message-y: 36px;
+$message-offset-x: -233px;
+$message-offset-y: -36px;
+$message-width: 20px;
+$message-height: 18px;
+$message-total-width: 267px;
+$message-total-height: 224px;
+$message-image: '../images/sprite/icons.png';
+$message: (233px, 36px, -233px, -36px, 20px, 18px, 267px, 224px, '../images/sprite/icons.png', 'message', );
+$spritesheet-width: 267px;
+$spritesheet-height: 224px;
+$spritesheet-image: '../images/sprite/icons.png';
+$spritesheet-sprites: ($icon1, $icon2, $icon-facebook, $icon-insta, $icon-mail, $icon-more, $icons-attractment, $icons-caret1, $icons-clock, $icons-contact, $icons-introduce, $icons-lorem1, $icons-lorem10, $icons-lorem2, $icons-lorem3, $icons-lorem4, $icons-lorem5, $icons-lorem6, $icons-lorem7, $icons-lorem8, $icons-lorem9, $icons-package, $message, );
+$spritesheet: (267px, 224px, '../images/sprite/icons.png', $spritesheet-sprites, );
+
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+/*
+The `sprites` mixin generates identical output to the CSS template
+  but can be overridden inside of SCSS
+
+@include sprites($spritesheet-sprites);
+*/
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}

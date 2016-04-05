@@ -1,0 +1,190 @@
+.contact{
+	background-color: $color-primary;
+	*::selection{
+	    background: $color-d;
+	    color: $color-f;
+    }
+	.container{
+		width: 880px;
+		color:$color-f;
+		margin:0 auto;
+	}
+	.title{
+		text-align: center;
+		padding-top:65px;
+		padding-bottom: 50px;
+		.title_icon{
+			margin-bottom: 20px;
+		}
+		.title_contact{
+			font-size: 32px;
+			font-style: italic;
+			font-family: 'Playfair Display', serif;
+			letter-spacing: 1px;
+			color:$color-f;
+		}
+		.title_description{
+			margin-top:25px;
+			font-family: 'Questrial', sans-serif;
+			font-size: 15px;
+			letter-spacing: 1px;
+		}
+	}
+	.form_contact{
+		margin: 0 auto;
+		width: 717px;
+		.form_group{
+			width: 708px;
+			height: 42px;
+			margin-bottom: 8px;
+			display: inline-block;
+		}
+		.form_group_comment{
+			height: 155px;
+			width:687px;
+			margin-top: 10px;
+		}
+		.label{
+			width: 140px;
+		}
+		.input_contact{
+			width: 568px;
+			float: right;
+		}
+		.form_input{
+			width:542px;
+			height: 42px;
+			float:right;
+			font-family: 'Questrial', sans-serif;
+			font-size: 15px;
+			color:$color-k;
+			background: $color-b;
+			letter-spacing: 1px;
+			text-align: left;
+			border: none;
+    	    border-radius: 0px;
+    	    padding-left: 21px;
+            margin-top: -25px;
+            float: left;
+            &:focus{
+			background-color: $color-l;
+		    }
+		    li{
+		    	&:hover{
+				background-color: $color-l;
+		    }
+		    }
+		} 
+		.form_input_comment{
+			float: left;
+			width:530px;
+			height: 155px;
+			font-family: 'Questrial', sans-serif;
+			font-size: 15px;
+			color:$color-k;
+			background: $color-b;
+			letter-spacing: 1px;
+			text-align: left;
+			border: none;
+	    	border-radius: 0px;
+	    	padding: 13px 13px 13px 21px;
+	    	margin-left: 21px;
+	    	margin-top: -31px;
+	    	&:focus{
+			background-color: $color-l;
+		    }
+		}
+		.form_label{
+			width: 123px;
+		    text-align: right;
+		    letter-spacing: 1px;
+		    font-family: 'Questrial', sans-serif;
+		    font-size: 15px;
+		    padding-top: 12px;
+		    float: right;
+		    margin-right: 22px;
+		}
+		.form_button{
+			margin-left: 144px;
+		    margin-top: 35px;
+		    margin-bottom: 62px;
+		    height: 46px;
+		    display: inline-block;
+			.form_button_submit{
+				width: 170px;
+				height: 44px;
+				border: 1px solid $color-d;
+				background-color:$color-primary;
+				letter-spacing: 1px;
+			    font-family: 'Questrial', sans-serif;
+			    font-size: 11px;
+			    color:$color-e;
+			    margin-right: 22px;
+			    display: inline-block;
+			    .link {
+				@include button(inline-block, 170px, 44px, 44px, $color-f, $color-m);
+				}
+			}
+			.form_button_reset{
+				width: 170px;
+				height: 44px;
+				border: 1px solid $color-b;
+				background-color:$color-primary;
+				letter-spacing: 1px;
+			    font-family: 'Questrial', sans-serif;
+			    font-size: 11px;
+			    color:$color-j;
+			    display: inline-block;
+			    .link{
+				@include button(inline-block, 170px, 44px, 44px, $color-f, $color-b);
+				}
+			}
+		}
+		.attract_file{
+			position: relative;
+		    margin-top: -32px;
+		    margin-right: 10px;
+			@extend %clearfix;
+		}
+		.fileUpload {
+			position: relative;
+			overflow: hidden;
+			margin: 10px;
+			background-color: #333;
+			height: 42px;
+			width: 142px;
+			text-align: center;
+			float: left;
+		}
+		.fileUpload .upload {
+			position: absolute;
+			top: 0;
+			right: 0;
+			margin: 0;
+			padding: 0;
+			font-size: 20px;
+			cursor: pointer;
+			opacity: 0;
+			filter: alpha(opacity=0);
+			height: 100%;
+			text-align: center;
+		}
+		.custom-span{
+		    display: block;
+		    height: 16px;
+		    width: 21px;
+		    position: absolute;
+		    top: 0;
+		    left: 50%;
+		    margin-top: 13px;
+		    margin-left: -8px;
+		}
+		#uploadFile{
+			border: none;
+		    margin-top: 23px;
+		    background: none;
+		    color: #f0f0f0;
+		    width: 300px;
+		}
+	}
+}

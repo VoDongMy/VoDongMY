@@ -1,0 +1,99 @@
+.footer{
+	background-color:$color-b;
+	height:229px;
+	width:100%;
+	display: inline-block;
+	.container{
+		width:880px;
+		margin: 0 auto;
+		.above{
+			@extend %clearfix;
+		}
+		.logo{		
+			width: 152px;
+			height: 42px;
+			float: left;
+			margin-top:57px;
+		}
+		.menu,
+		.menu_list{
+			float:left;
+		}
+		.menu{	
+			.menu_list{
+				margin-left: 50px;
+				margin-top:85px;
+				color:$color-f;
+				font-size: 14px;
+				letter-spacing: 1px;
+				font-family: 'Questrial', sans-serif;
+				&:hover{
+					color:$color-g;
+				}
+		    }
+	    }
+	   	.icon_footer{
+	   		float:right;
+	   		margin-top:84px;
+	   		.icon_footer_list{
+	   			display: inline;
+	   			margin-left: 24px;
+	   			padding:0px;
+	   		}
+	   	}
+	    .below{
+	    	@extend %clearfix;
+	    	border-top:1px solid $color-h;
+	    	margin-top:48px;
+	    	padding-top:13px;
+	    	font-family: 'Questrial', sans-serif;
+	    	.about_us,
+	    	.list_about{
+	    		float:left;
+	    	}
+	    	.about_us{
+	    		color:$color-g;	
+	    		.about_us_list{
+		    		font-size: 13px;
+		    		padding:0 16px 0 17px;
+		    		float:left;
+		    		position: relative;
+		    		a:hover{
+		    			color:$color-a;
+		    		}
+		    		&:first-child{
+		    			padding-left:0;
+		    			&:after{
+		    				position: absolute;
+		    				right:0;
+		    				top:2px;
+		    				content: "";
+		    				height:13px;
+		    				border-right:1px solid #474747;
+		    			}
+		    		}
+		    		&:last-child{
+		    			padding-right:0;
+		    			&:after{
+		    				position: absolute;
+		    				left:0;
+		    				top:2px;
+		    				content: "";
+		    				height:13px;
+		    				border-left:1px solid #5f5f5f;
+		    			}
+		    		}
+		    	}
+		    	.about_us_line{
+		    		padding-right:18px; 
+		    		float:left;
+		    	}
+	    	}
+	    	.copyright{
+	    		float: right;
+	   			color:$color-g;
+	   			font-size: 13px;
+	    	}
+	    }
+    }
+}
