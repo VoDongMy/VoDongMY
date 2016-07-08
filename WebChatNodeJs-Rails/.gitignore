@@ -51,6 +51,8 @@ db/*.sqlite3
 /spec/routing
 /spec/views
 /specifications
+WebChatNodeJs-Rails/nodejs/node_modules
+WebChatNodeJs-Rails/nodejs/node_modules/
 rerun.txt
 pickle-email-*.html
 
